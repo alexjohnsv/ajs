@@ -49,6 +49,12 @@ head([1, 2]) // -> 1
 head([]) // -> undefined
 ```
 
+### Join
+
+```
+join(['a', 'b', 'c'], '.') // -> 'a.b.c'
+```
+
 ## Tests
 
 ```
