@@ -55,6 +55,12 @@ head([]) // -> undefined
 join(['a', 'b', 'c'], '.') // -> 'a.b.c'
 ```
 
+### Zip
+
+```
+zip(['a', 'b'], [1, 2], [true, false]) // -> [['a', 1, true], ['b', 2, false]]
+```
+
 ## Tests
 
 ```
