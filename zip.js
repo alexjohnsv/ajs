@@ -1,13 +1,7 @@
 function zip(...array) {
   const first = array[0];
 
-  const result = [];
-
-  for (let i = 0; i < first.length; i++) {
-    result[i] = array.map(a => a[i]);
-  }
-
-  return result;
+  return first.map((v, i) => array.map(a => a[i]));
 }
 
 export default zip;
